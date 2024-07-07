@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: registry.cn-hangzhou.aliyuncs.com/seayuns/cpp-complier:0.1
+    runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v4
       - name: Build so
